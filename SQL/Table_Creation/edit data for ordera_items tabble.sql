@@ -1,0 +1,8 @@
+ALTER TABLE order_items
+ALTER COLUMN order_id VARCHAR(50) NOT NULL;
+
+ALTER TABLE order_items
+ALTER COLUMN product_id VARCHAR(50) NOT NULL;
+
+ALTER TABLE order_items
+ALTER COLUMN seller_id VARCHAR(50) NOT NULL;
